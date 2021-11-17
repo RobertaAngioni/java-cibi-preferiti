@@ -21,8 +21,10 @@ public class CibiPreferiti {
 		System.out.println("Classifica di " + lunghezzaArray + " elementi");
 		
 		System.out.println("Il primo cibo in classifica è: " + ciboPreferito[0]);
-		System.out.println("Il cibo di mezza classifica è: " + ciboPreferito[4]);
-		System.out.println("L'ultimo cibo in classifica è: " + ciboPreferito[7]);
+		System.out.println("Il cibo di mezza classifica è: " + ciboPreferito[ciboPreferito.length / 2]);
+		System.out.println("L'ultimo cibo in classifica è: " + ciboPreferito[ciboPreferito.length -1]);
+		
+		
 		
 		
 		
