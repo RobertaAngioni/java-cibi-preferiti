@@ -3,7 +3,7 @@ package org.generation.italy.array;
 public class CibiPreferiti {
 
 	public static void main(String[] args) {
-	String[] ciboPreferito = new String[7];
+	String[] ciboPreferito = new String[8];
         
 	//inizializzazione cibi
 	
@@ -14,9 +14,15 @@ public class CibiPreferiti {
 	ciboPreferito[4] = "montanara";
 	ciboPreferito[5] = "zuppa agropiccante";
 	ciboPreferito[6] = "frittura di pesce";
+	ciboPreferito[7] = "ramen";
 	
+	// stampa a schermo
 		int lunghezzaArray = ciboPreferito.length;
-		System.out.println("Array di " + lunghezzaArray + " elementi");
+		System.out.println("Classifica di " + lunghezzaArray + " elementi");
+		
+		System.out.println("Il primo cibo in classifica è: " + ciboPreferito[0]);
+		System.out.println("Il cibo di mezza classifica è: " + ciboPreferito[4]);
+		System.out.println("L'ultimo cibo in classifica è: " + ciboPreferito[7]);
 		
 		
 		
